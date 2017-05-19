@@ -1,0 +1,1 @@
+include ':app', ':achartengine-1.2.0', ':_android-support-v4'

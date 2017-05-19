@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fr.utbm.tx.quizz.Activities.ThemeEvolutionActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.05">
+
+        <TextView
+            android:id="@+id/titleEvolution"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_evolution"
+            android:layout_gravity="center_vertical"
+            style="@style/text_evolution" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_lstTheme"
+            android:layout_weight="1"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chartTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

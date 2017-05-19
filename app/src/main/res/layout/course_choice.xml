@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context="fr.utbm.tx.quizz.Activities.CoursActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        tools:context="fr.utbm.tx.quizz.Activities.MainActivity"
+        android:weightSum="1"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/cours1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Développement durable"
+            style="@style/button_text" />
+
+        <Button
+            android:id="@+id/cours2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Stratégies et Gouvernances"
+            style="@style/button_text"
+            android:layout_gravity="left"
+            android:enabled="true" />
+
+        <Button
+            android:id="@+id/cours3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bonnes Pratiques"
+            style="@style/button_text"/>
+        <Button
+            android:id="@+id/cours4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Energies, Air et Climat"
+            style="@style/button_text"/>
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/start_reg"
+            android:onClick= "startListening"
+            android:src="@drawable/mic"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_alignBottom="@+id/layoutProgressBar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+</ScrollView>

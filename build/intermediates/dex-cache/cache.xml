@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\UTBM-INFO\INFO 05\TO52\TO52_Quizz\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="571045bf6da2876b6ca24c5240b0730f27251a67">
+        <dex dex="D:\UTBM-INFO\INFO 05\TO52\TO52_Quizz\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d7e34f550501b42732fa6ec76881e61f4dcd764b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ASUS\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="D:\UTBM-INFO\INFO 05\TO52\TO52_Quizz\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-20.0.0_43e73a83384630a4ffb24fc86b9e3af4fbe50dcc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\UTBM-INFO\INFO 05\TO52\TO52_Quizz\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="D:\UTBM-INFO\INFO 05\TO52\TO52_Quizz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-20.0.0_0ed44d4410379bca0feb2d3b4753ff69e80f7328\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\UTBM-INFO\INFO 05\TO52\TO52_Quizz\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="D:\UTBM-INFO\INFO 05\TO52\TO52_Quizz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-20.0.0_77c488ce5c9299fdf676e4b615d91f0d86404490\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\UTBM-INFO\INFO 05\TO52\TO52_Quizz\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="604d03a1a4231c47c6679ddfdb644dc27f8f599d">
+        <dex dex="D:\UTBM-INFO\INFO 05\TO52\TO52_Quizz\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_dc273b3073e9aeba06f4f37a652e31e366072360\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\UTBM-INFO\INFO 05\TO52\TO52_Quizz\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="D:\UTBM-INFO\INFO 05\TO52\TO52_Quizz\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-20.0.0_1b308ed3b893a9bf605e09699ce771bdaaabb5c1\classes.dex" />
+    </item>
+
+</items>

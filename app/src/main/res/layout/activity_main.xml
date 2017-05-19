@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context="fr.utbm.tx.quizz.Activities.MainActivity" >
+
+	<LinearLayout
+
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+		android:orientation="vertical"
+	    tools:context="fr.utbm.tx.quizz.Activities.MainActivity"
+		android:gravity="center">
+
+		<ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:contentDescription="@string/logo_alt"
+	        android:src="@drawable/logo_utbmfeuille"
+			android:layout_alignBottom="@+id/btn_play"
+			android:layout_centerHorizontal="true" />
+
+
+		<Button
+            android:id="@+id/btn_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jouer_button"
+			style="@style/button_text" />
+		<Button
+
+			android:id="@+id/btn_Evolution"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Evolution Score"
+			style="@style/button_text"
+			android:layout_gravity="center_horizontal" />
+
+		<Button
+	        android:id="@+id/btn_quit"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/quitter_button"
+			style="@style/button_text" />
+
+	</LinearLayout>
+
+</ScrollView>

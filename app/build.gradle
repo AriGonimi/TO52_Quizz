@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '24.0.2'
+
+    defaultConfig {
+        applicationId "fr.utbm.to.quizz"
+        minSdkVersion 11
+        targetSdkVersion 20
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:20.0.0'
+    compile 'com.android.support:support-v4:20.0.0'
+    //compile files('libs/_android-support-v4.jar')
+    //compile files('libs/_android-support-v4.jar')
+    compile project(':achartengine-1.2.0')
+    compile project(':_android-support-v4')
+}

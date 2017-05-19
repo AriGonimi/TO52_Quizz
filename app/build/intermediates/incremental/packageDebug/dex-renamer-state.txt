@@ -1,0 +1,7 @@
+#Fri Apr 14 14:26:57 CEST 2017
+base.0=D\:\\UTBM-INFO\\INFO 05\\TO52\\TO52_Quizz\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_d7e34f550501b42732fa6ec76881e61f4dcd764b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\UTBM-INFO\\INFO 05\\TO52\\TO52_Quizz\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_dc273b3073e9aeba06f4f37a652e31e366072360\\classes.dex
+base.1=D\:\\UTBM-INFO\\INFO 05\\TO52\\TO52_Quizz\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_dc273b3073e9aeba06f4f37a652e31e366072360
+file.0=D\:\\UTBM-INFO\\INFO 05\\TO52\\TO52_Quizz\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_d7e34f550501b42732fa6ec76881e61f4dcd764b\\classes.dex

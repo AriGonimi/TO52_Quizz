@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  General -->
+    <string name="app_name">Questionnaire</string>
+
+    <!--  Activity name -->
+    <string name="title_activity_jouer">Questionnaire</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="title_activity_mode">Choix de l\'action</string>
+    <string name="title_activity_training">Entrainement thématique</string>
+    <string name="title_course_choice">Choix du cours</string>
+    <string name="title_lecture_activity">Lecture du cours</string>
+    <string name="title_activity_choice_score">Evolution Score</string>
+    <string name="title_activity_score_classique">Evolution Classique</string>
+    <string name="title_activity_score_theme">Evolution par thème</string>
+    <string name="title_activity_score_all">Toutes les évolutions</string>
+    <!--  Menu -->
+    <string name="logo_alt">Quizz logo</string>
+    <string name="jouer_button">Jouer</string>
+    <string name="exam_button">Examen</string>
+    <string name="training_button">Entrainement</string>
+    <string name="option_button">Options</string>
+    <string name="quitter_button">Quitter</string>
+    <string name="menu_button">Menu</string>
+    <string name="history_button">Game history</string>
+    <string name="save_button">Save</string>
+    <string name="spinner_course">Thèmes</string>
+    <string name="tous_button">Toutes les Evolutions</string>
+    <string name="classique_button">Classique</string>
+    <string name="bytheme_button"> Evolution par Theme</string>
+    <string name="title_evolution">Evolution du 00-00-00 au 00-00-00</string>
+    <!--  Timer -->
+    <string name="action_textsize_plus">Agrandir le texte</string>
+    <string name="action_textsize_minus">Rapetissir le texte</string>
+    <string name="action_moon_full">Mode Nuit</string>
+    <string name="action_moon_empty">Mode Jour</string>
+
+    <!--  Timer -->
+    <string name="timer">30</string>
+    <string name="continuer">Continuer</string>
+
+    <string name="mode_classique">Classique</string>
+    <string name="mode_theme">Theme</string>
+    <string name="mode_ameliore">Ameliore</string>
+    <string name="retour">Retour</string>
+
+</resources>

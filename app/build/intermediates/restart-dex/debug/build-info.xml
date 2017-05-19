@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="22"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="14114145216550"
+    token="-8919898133428881259"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="3272" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="17145" />
+    <task
+        name="verifier"
+        duration="8423" />
+
+    <artifact
+        location="D:\UTBM-INFO\INFO 05\TO52\TO52_Quizz\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="14114145216550"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\UTBM-INFO\INFO 05\TO52\TO52_Quizz\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

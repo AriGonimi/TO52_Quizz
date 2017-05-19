@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.utbm.tx.quizz"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name= "android.permission.RECORD_AUDIO" />
+    <uses-permission android:name= "android.permission.INTERNET"/>
+    <uses-permission android:name= "android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name= "android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name= "android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name= "android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icone_app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.JouerActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_jouer"></activity>
+        <activity
+            android:name=".Activities.AllEvolutionActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_score_all"></activity>
+        <activity
+            android:name=".Activities.ChoiceScoreActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_choice_score">
+
+        </activity>
+        <activity
+            android:name=".Activities.ExamenEvolutionActivity"
+            android:label="@string/title_activity_score_classique" >
+        </activity>
+        <activity
+            android:name=".Activities.ThemeEvolutionActivity"
+            android:label="@string/title_activity_score_theme" >
+        </activity>
+        <activity
+            android:name=".Activities.SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+        <activity
+            android:name=".Activities.ModeActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_mode"></activity>
+        <activity
+            android:name=".Activities.TrainingActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_training"></activity>
+        <activity
+            android:name=".Activities.CoursActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_course_choice"></activity>
+        <activity
+            android:name=".Activities.LectureActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_lecture_activity"></activity>
+
+    </application>
+
+</manifest>

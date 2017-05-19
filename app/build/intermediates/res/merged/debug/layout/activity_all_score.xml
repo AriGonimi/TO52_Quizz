@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <Button
+                style="@style/button_text"
+                android:id="@+id/btn_Tous"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/tous_button"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/Btn_examen"
+                style="@style/button_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="Evolution Examen"
+                android:layout_weight="0.29" />
+
+
+            <Button
+                android:id="@+id/btn_partheme"
+                style="@style/button_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/bytheme_button"
+                android:layout_weight="0.29" />
+
+            <View
+                android:id="@+id/separator"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_retour"
+                style="@style/button_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/retour"
+                android:elevation="0dp" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

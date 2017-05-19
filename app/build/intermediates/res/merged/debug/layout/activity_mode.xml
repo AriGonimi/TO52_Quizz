@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center"
+    tools:context="fr.utbm.tx.quizz.Activities.ModeActivity" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+		android:orientation="vertical"
+	    tools:context="fr.utbm.tx.quizz.Activities.MainActivity"
+		android:weightSum="1"
+		android:gravity="center">
+
+		<Button
+	        android:id="@+id/btn_exam"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Examen"
+			android:drawableRight="@drawable/ic_bouton_exam"
+			style="@style/button_text" />
+
+		<Button
+            android:id="@+id/btn_training"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Entrainement"
+			style="@style/button_text"
+			android:drawableRight="@drawable/ic_bouton_entrainement"
+			android:layout_gravity="left"
+			android:enabled="true" />
+			//android:contextClickable="false"
+
+
+		<Button
+			android:id="@+id/btn_cours"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Cours"
+			android:drawableRight="@drawable/ic_bouton_cours"
+			style="@style/button_text"/>
+
+		<Button
+			style="@style/button_text"
+			android:id="@+id/btn_Options"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Options"
+			android:drawableRight="@drawable/ic_bouton_options"
+			android:layout_gravity="center_horizontal" />
+
+		<Button
+			style="@style/button_text"
+			android:id="@+id/btn_Quitter"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Quitter"
+			android:drawableRight="@drawable/ic_bouton_power"
+			android:layout_gravity="center_horizontal" />
+		<ImageView
+			android:layout_width="55dp"
+			android:layout_height="55dp"
+			android:id="@+id/start_reg"
+			android:onClick= "startListening"
+			android:src="@drawable/mic"
+			android:layout_marginLeft="24dp"
+			android:layout_marginStart="24dp"
+			android:layout_alignBottom="@+id/layoutProgressBar"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true"
+			android:layout_gravity="right" />
+
+	</LinearLayout>
+
+	</ScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_textsize_plus"
+        android:icon="@drawable/ic_action_textsize_plus"
+        android:title="@string/action_textsize_plus"
+        android:showAsAction="ifRoom"
+    />
+    <item
+        android:id="@+id/action_textsize_minus"
+        android:icon="@drawable/ic_action_textsize_minus"
+        android:title="@string/action_textsize_minus"
+        android:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_moon"
+        android:icon="@drawable/ic_action_moon_full"
+        android:title="@string/action_moon_full"
+        android:showAsAction="ifRoom"
+        />
+</menu>
